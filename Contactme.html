@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Sofia Paita</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Fotoperfil.jpg"  alt="Foto perfil Sofia Paita"  class="imgperfil">
+        <h1 id="headertitle">SOFIA PAITA</h1>
+    </header>
+    
+    <nav>
+        <a class ="link" href="https://github.com/sofiapai" target="_blank">Proyectos</a>
+        <a class ="link" href="index.html">Inicio</a>
+        <a class ="link" href="Contactme.html" target="_blank">Contacto</a>
+    </nav>
+    <section class="misdatos">
+        <h1>Mis datos de contacto</h1>
+        <p>Correo electronico: sofipaita@gmail.com</p>
+        <p>Numero de telefono: 642711873</p>
+        <p>Lugar de residencia: Madrid </p>
+    </section>
+    <hr>
+    
+    <section class="cuestionario">
+    <h3>¿Quieres dejarme un mensaje?</h3>
+
+    <form action="registrocompleto.html">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="Nombre" type="text" required>
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input id ="apellido" name="apellido" type="text" required>
+        </div>
+        <div>
+            <label for="telefono">Telefono:</label>
+            <input id="telefono" name="Telefono" type="tel" required>
+        </div>
+        <div>
+            <label for="github">Tag Github:</label>
+            <input id="github" name="github" type="text" pattern="^@[^\s]+" required>
+        </div>
+        <div>
+            <legend>¿Como me conociste?</legend>
+            <label for="uni">Universidad</label>
+            <input id="uni" value="Universidad" type="radio" name="conociste"> <br>
+            <label for="KC">Keepcoding Kick-off</label>
+            <input id="KC" value="Keepcoding" type="radio" name="conociste"> <br>
+            <label for="colegio">Colegio</label>
+            <input id="colegio" value="colegio" type="radio" name="conociste"> <br>
+            <label for="Github">En Github</label>
+            <input id="Github" value="Github" type="radio" name="conociste"> <br>
+        </div>
+        <div>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="Mensaje" cols="20" rows="5" required maxlength="180"></textarea>
+    
+        </div>
+        <input type="submit" value="Enviar">
+
+    </form>
+    </section>
+    
+    <footer>
+        <a href="https://www.instagram.com/sofipaita/" target="_blank"><img src="instagram.png" title="instagram icon" alt="instagram icon" class="imgfoot"></a>
+        <a href="https://www.linkedin.com/in/sofiapaita/" target="_blank"><img src="linkedin (1).png" alt="Linkedin icon" alt ="linkedin icon" class="imgfoot"></a>
+    </footer>
+
+</body>
+</html>
